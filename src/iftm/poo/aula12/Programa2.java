@@ -10,7 +10,7 @@ public class Programa2 {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("IFTM - POO");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+		//Júnior Martins da Costa
 		frame.setSize(300, 200);
 		frame.setVisible(true);
 		
@@ -19,8 +19,9 @@ public class Programa2 {
 		JLabel rotulo = new JLabel("Nome: ");
 		JTextField entrada = new JTextField(40);
 		
-		panel.add(rotulo);
+		
 		panel.add(entrada);
+		panel.add(rotulo);
 		
 		frame.setContentPane(panel);
 		

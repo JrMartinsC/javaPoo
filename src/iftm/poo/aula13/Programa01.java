@@ -19,7 +19,7 @@ public class Programa01 extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		
+		//Teste
 		AnchorPane pane = new AnchorPane(); //Cria Janela
 		pane.setPrefSize(400, 300); //Medição da janela
 		
