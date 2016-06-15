@@ -9,6 +9,7 @@ public class Programa09 {
 		calculaSomatorio("Três", 6.6, 89, 435);
 		calculaSomatorio("Vários", 6.6, 89, 435, 8, 56, 99);
 	}
+	//Teste commit eclipse 2
 	
 	public static void calculaSomatorio(String descricao, double ... valores){  
 		double soma = 0;
